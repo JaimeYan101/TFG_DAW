@@ -1,0 +1,48 @@
+@font-face {
+  font-family: honor;
+  src: url(/font/HONORSans-Regular.ttf);
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: honor;
+  }
+  body {
+    min-height: 100vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 60px 1fr 150px;
+    grid-template-areas: "header" "section" "footer";
+  }
+  
+  header {
+    grid-area: header;
+    background-color: black;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    position: sticky;
+  }
+
+  section {
+    grid-area: section;
+    background-color: #F5F5F7;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 90px;
+  }
+
+  footer {
+    grid-area: footer;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    padding-left: 7%;
+    padding-right: 7%;
+    gap: 60px;
+    justify-content: center;
+  }

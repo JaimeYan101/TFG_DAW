@@ -1,0 +1,16 @@
+section > #contenedor {
+    margin: auto;
+    width: fit-content;
+    height: fit-content;
+    border: 0px solid black;
+  }
+  
+  section > #contenedor > form > #campoIntroducir {
+    padding: 30px;
+    border: 1px solid black;
+    border-radius: 15px;
+    width: 900px;
+    height: 90px;
+    font-size: 30px;
+  }
+  

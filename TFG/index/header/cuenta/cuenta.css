@@ -1,0 +1,72 @@
+section > .contenedor {
+    border: 1px solid;
+    width: 500px;
+    height: fit-content;
+    display: block;
+    text-align: center;
+    padding: 40px;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: -50px;
+    margin-bottom: 80px;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+
+section > .contenedor > #opcionIniciar {
+    padding: 10px;
+    border: 0px solid;
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+section > .contenedor > #opcionIniciar > a {
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    background-color: black;
+    border-radius: 5px;
+}
+
+section > .contenedor > #opcionIniciar > a:hover {
+    color: black;
+    background-color: white;
+    transition-duration: 0.5s;
+}
+
+section > .contenedor > #item  {
+    padding: 10px;
+    border: 0px solid;
+    text-align: left;
+}
+
+section > .contenedor > #item > form > input {
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+    background-color: rgb(232, 237, 238);
+    border: 1px solid;
+    width: 100%;
+}
+
+section > .contenedor > #item > form > div > input {
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+    background-color: rgb(232, 237, 238);
+    border: 1px solid;
+    width: 100%;
+}
+
+section > .contenedor > #item > form > #botonSubmit:hover {
+    background-color: black;
+    color: white;
+    transition-duration: 0.5s;
+}

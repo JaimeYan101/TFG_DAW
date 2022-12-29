@@ -1,0 +1,25 @@
+section > #globalCarrusel {
+    float: left;
+    width: 54.7%;
+}
+
+section > #datosPedido {
+    float: right;
+    width: 40%;
+    border: 0px solid black;
+}
+
+section > #datosPedido > form > button {
+    float: right;
+    margin-top: -5px;
+    padding: 10px;
+    border: 0px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+section > #datosPedido > form> button:hover {
+    background-color: black;
+    color: white;
+    transition-duration: 1s;
+}

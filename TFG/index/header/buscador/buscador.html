@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Buscador</title>
+    <link rel="stylesheet" href="../../../css/elementosFooter.css" />
+    <link rel="stylesheet" href="../../../css/elementosHeader.css" />
+    <link rel="stylesheet" href="../../../css/elementosSection.css" />
+    <link rel="stylesheet" href="../../../css/maquetacion.css" />
+    <link rel="stylesheet" href="../../../FAwesome/css/all.css" />
+    <link rel="stylesheet" href="buscador.css" />
+
+
+    <script src="/index/header/buscador/buscadorJS.js"></script>
+  </head>
+  <body onload="FocusOnInput()">
+    <header>
+      <div style="color: white">
+        <a href="/index/index.html"
+          >            <a href="/index/index.html"><img src="/img/Logo.svg" alt="" width="40px"height="40px"></a></div>
+</a>
+      </div>
+      <div><a href="../productos/productos.html">Productos</a></div>
+      <div><a href="../personalizar/personalizar.html">Personalizar</a></div>
+      <div><a href="../carrito/carrito.html">Carrito</a></div>
+      <div>
+        <a href="buscador.html"><p>Buscar</p></a>
+      </div>
+      <div><a href="../iniciar/iniciar.html" ><p>Iniciar Sesion</p></a></div>
+      <div>
+        <select name="idioma" id="selectorIdiomas" onchange="cambiarIdioma()">
+          <option value="" selected>Idioma</option>
+          <option value="">ES</option>
+          <option value="">ZH</option>
+          <option value="">ENG</option>
+        </select>
+      </div>
+    </header>
+
+    <section>
+      <div id="contenedor">
+        <form action="">
+          <input
+            type="text"
+            id="campoIntroducir"
+            autocomplete="off"
+            placeholder="Buscar..."
+            required
+          />
+          <input type="submit" hidden name="" id="" />
+        </form>
+      </div>
+    </section>
+
+    <footer>
+      <div id="footerItem">
+          <h3>Ayuda</h3>
+          <a href="/index/footer/FAQ/faq.html"><p>FAQ</p></a>
+          <a href=""><p>Atención al cliente: +34 928374383</p></a>
+          <a href="/index/footer/rastrear/rastrearPedido.html"><p>Rastrear Pedido</p></a>
+      </div>
+
+      <div id="footerItem">
+          <h3>Sobre nosotros</h3>
+          <a href="../../footer/empleo/empleo.html"><p>Trabaja con nosotros</p></a>
+          <a href="../../footer/creadores/creadores.html"><p>Plantilla</p></a>
+      </div>
+
+      <div id="footerItem">
+          <h3>Redes Sociales</h3>
+          <div id="redesSociales">
+          <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram" style="color: pink;"></i></a>
+          <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter" style="color: rgb(25, 188, 242);"></i></a>
+          <a href="https://facebook.com/" target="_blank"><i class="fab fa-facebook" style="color: rgb(25, 68, 200);"></i></a>
+          <a href="https://www.tiktok.com/" target="_blank"
+          ><i class="fab fa-tiktok" style="color: white"></i
+        ></a>
+      </div>
+      </div>
+      
+  </footer>
+  </body>
+</html>
